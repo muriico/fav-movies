@@ -1,0 +1,118 @@
+body, html {
+  height: 100%;
+  background-image: url("/images/beigie.png");
+  height: 100%;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #B18672;
+    margin: 0;
+
+  }
+  
+  .header h1 {
+    font-family: Georgia, serif;
+    border: 8px solid #4c433e;
+    border-radius: 100px;
+    font-size: 30pt;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    color:#614134;
+  }
+
+  .navbar {
+    font-family: Georgia, serif;
+    font-size: 30pt;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: px;
+    color:#4D4B49;
+
+}
+ .navbar {
+    width: 100%;
+    background-color: #4c433e;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: #614134;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 250ms;
+  }
+  
+  .navbar a:hover {
+    background-color: #b09182;
+  }
+  
+  .active {
+    background-color: #B18672;
+  }
+  /* Style the sidebar - fixed full height */
+.sidebar {
+  height: 525px;
+  width: 160px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border: 10px solid #4c433e;
+  background-color: #B18672;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: #614134;
+  display: block;
+  transition: font-size 1s;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #4c433e;
+  font-size: 140%;
+}
+
+/* Style the main content */
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+.poster {
+  position: absolute;
+  left: 200px;
+  bottom: 10%;
+  border: 10px solid #4c433e;
+  border-radius: 5%;
+  line-height: 0;
+}
+
+.movieoverview {
+  color: #614134;
+  position: absolute;
+  left: 570px;
+  bottom: 20%;
+  font-size: 130%;
+}
